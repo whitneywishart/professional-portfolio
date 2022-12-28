@@ -96,20 +96,41 @@ a:hover::before {
 }
 
 main {
-    padding: 10%;
+    padding: 3% 10%;
 }
 
-.card-flex-container {
+.card-flex-column-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    gap: 1rem;
 
 }
 
-.card-flex-items {
+.card-flex-column-items {
     margin: auto;
     width: 10vw;
     height: 10vh;
+    background: #415a77;
+
+}
+
+.card-flex-row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+.card-flex-row-items {
+    margin-top: 5rem;
+    width: 20rem;
+    height: 15rem;
+    background: #415a77;
+    border: #778da9 5px solid;
+    border-radius: .5rem;
 
 }
