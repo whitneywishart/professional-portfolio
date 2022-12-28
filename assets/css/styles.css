@@ -1,23 +1,32 @@
 body {
-    background: #0d1b2a;
-    padding: 2rem;
-    font-family: 'Chivo Mono', monospace
+    background: #09121C;
+    font-family: 'Chivo Mono', monospace;
+
 }
 
 p {
     font-size: 18px;
+    color: wheat;
+    line-height: 1.2rem;
+
 }
 
 h1 {
     font-size: 6rem;
+    color: #e0e1dd;
+    font-weight: 500;
+    line-height: 1.2em
 }
 
 h2 {
     font-size: 4rem;
+    color: #778da9;
+    line-height: 1.2em
 }
 
 h3 {
     font-size: 2rem;
+    line-height: 1.2em
 }
 
 a {
@@ -26,12 +35,18 @@ a {
     text-decoration: none;
 }
 
+header {
+    padding: 2rem;
+}
+
 /* Navigation flexbox*/
 .nav-flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: safe center;
+
+
 
 
 }
@@ -43,8 +58,8 @@ a {
     margin: 2rem;
 
 
-}
 
+}
 
 a::before {
     content: "";
@@ -73,11 +88,28 @@ a:hover::before {
 }
 
 
-
-
 /* Small screens */
 @media all and (max-width: 500px) {
     .nav-flex-container {
         flex-direction: column;
     }
+}
+
+main {
+    padding: 10%;
+}
+
+.card-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card-flex-items {
+    margin: auto;
+    width: 10vw;
+    height: 10vh;
+
 }
