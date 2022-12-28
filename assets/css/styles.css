@@ -1,0 +1,83 @@
+body {
+    background: #0d1b2a;
+    padding: 2rem;
+    font-family: 'Chivo Mono', monospace
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 18px;
+    color: #e0e1dd;
+    text-decoration: none;
+}
+
+/* Navigation flexbox*/
+.nav-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: safe center;
+
+
+}
+
+/* Navigation links*/
+.nav-flex-item a {
+    position: relative;
+    text-decoration: none;
+    margin: 2rem;
+
+
+}
+
+
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #e0e1dd;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.2s ease;
+}
+
+a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+    .nav-flex-container {
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
+
+
+
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .nav-flex-container {
+        flex-direction: column;
+    }
+}
