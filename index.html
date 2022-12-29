@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whitney Wishart | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@100;200;300;400&display=swap">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
@@ -12,33 +16,63 @@
 <body>
     <header>
         <div class="nav-flex-container">
-            <div class="nav-flex-item"><a href="#">About</a></div>
-            <div class="nav-flex-item"><a href="#work">Work</a></div>
-            <div class="nav-flex-item"><a href="mailto:whitneywishart@gmail.com">Contact</a></div>
+            <div class="nav-flex-item"><a class="nav-a" href="#about">About</a></div>
+            <div class="nav-flex-item"><a class="nav-a" href="#work">Work</a></div>
+            <div class="nav-flex-item"><a class="nav-a" href="mailto:whitneywishart@gmail.com">Contact</a></div>
         </div>
     </header>
-
-
     <main>
+        <div class="flex-column-container">
+            <img src="/assets/images/wishart.png" width="170" alt="Whitney Wishart" class="photo">
+            <div class="flex-column-item">
+                <div class="name-h1">Whitney</div>
+            </div>
+            <div class="flex-column-item">
+                <div class="name-h2">Wishart</div>
+            </div>
 
+            <div class="flex-column-item">
+                <div class="about" id="about">
+                    <div class="flex-column-item">
+                        <div class="name-h3">Hello friends. I can do things.</div>
+                    </div>
+                    <p>| Full stack web development, including html, CSS, JavaScript, and APIs | UAT | A/B testing |
+                        Jira
+                        project administrator including dynamically updating wallboards | Agile methodologies |
+                        Accessibility best practices | AEM authoring power
+                        user | Adobe
+                        Suite proficiency, including Photoshop, Illustrator, InDesign, After Effects and Acrobat Pro,
+                        advanced color correction, PDF
+                        creation and optimization, pixel-perfect specification execution, video and animation editing |
+                        Full MS Office suite proficiency,
+                        including advanced Excel, pivot, UDF, power query, data modeling and VBA scripting for
+                        automation |
 
-        <div class="card-flex-column-container">
-            <div><img src="/assets/images/wishart.png" width="200" alt="Whitney Wishart"></div>
-            <h1>Whitney</h1>
-            <h2>Wishart</h2>
-            <p>Hello friends.</p>
+                    </p>
+                </div>
+            </div>
         </div>
-
-        <div class="card-flex-row-container" id="work">
-            <div class="card-flex-row-items">
+        <h2 id="work">Work</h2>
+        <div class="card-box">
+            <div><a href="https://whitneywishart.github.io/module-01-html-css-git-challenge-code-refactor/"
+                    target="_blank">
+                    <p>Code refactor</p>
+                    <div><img src="/assets/images/index_screenshot.png" alt="Code refactor"></div>
+                </a>
             </div>
-            <div class="card-flex-row-items">
+            <div>
+                <a href="#" target="_blank">
+                    <p>Application two</p>
+                </a>
             </div>
-            <div class="card-flex-row-items">
+            <div>
+                <a href="#" target="_blank">
+                    <p>Application three</p>
+                </a>
             </div>
+        </div>
     </main>
-
-
+    <footer></footer>
 </body>
 
 </html>
