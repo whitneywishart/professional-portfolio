@@ -13,7 +13,7 @@ Practice using advanced CSS styling, including flexbox layout.
 <br/>
 
 ### Deployed URL
-
+https://whitneywishart.github.io/module-02-advanced-css-challenge-professional-portfolio/
 <br/>
 <br/>
 
