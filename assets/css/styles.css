@@ -1,5 +1,7 @@
+/* Import google font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;300;400&display=swap');
 
+/* Smooth scrolling anchor links */
 html {
     scroll-behavior: smooth;
 }
@@ -14,6 +16,7 @@ header {
     margin-bottom: 8%;
 }
 
+/* Avatar placed in circular container */
 .photo {
     max-width: 90%;
     border-radius: 50%;
@@ -28,6 +31,7 @@ p {
     padding-bottom: 1rem;
 }
 
+/* Hero name styling */
 .name-h1 {
     font-size: 9rem;
     color: #e0e1dd;
@@ -50,7 +54,7 @@ p {
     padding-bottom: 2%;
 }
 
-/* Font size adjust */
+/* Hero name font size adjust for variable viewports */
 @media all and (max-width: 950px) {
     .name-h1 {
         font-size: 6rem;
@@ -58,7 +62,7 @@ p {
     }
 }
 
-/* Font size adjust */
+
 @media all and (max-width: 500px) {
     .name-h1 {
         font-size: 500%;
@@ -72,13 +76,14 @@ p {
     }
 }
 
-/* Font size adjust */
+
 @media all and (max-width: 500px) {
     .name-h2 {
         font-size: 400%;
 
     }
 }
+
 
 h1 {
     font-size: 7rem;
@@ -104,7 +109,7 @@ a {
     text-decoration: none;
 }
 
-/* Navigation*/
+/* Navigation flexbox and link styling */
 .nav-a {
     font-size: 18px;
     color: #e0e1dd;
@@ -118,7 +123,7 @@ a {
     gap: 6rem;
 }
 
-/* Navigation links*/
+
 .nav-item a {
     position: relative;
     text-decoration: none;
@@ -142,7 +147,7 @@ a {
     transform: scaleX(1);
 }
 
-/*Navigation medium screens */
+/* Navigation adjust for variable viewports  */
 @media all and (max-width: 900px) {
     .nav-container {
         justify-content: space-around;
@@ -151,7 +156,7 @@ a {
     }
 }
 
-/*Navigation small screens */
+
 @media all and (max-width: 500px) {
     .nav-container {
         flex-direction: column;
@@ -165,6 +170,7 @@ a {
     }
 }
 
+/* Left hand section header placements */
 .left-rail {
     margin-left: -11%;
 
@@ -177,6 +183,7 @@ a {
 
 }
 
+/* Left rail adjust for variable viewports */
 @media all and (max-width: 950px) {
     .left-rail h2 {
         border-bottom: 1px solid rgb(224, 225, 221, .5);
@@ -191,20 +198,21 @@ a {
 
 }
 
-/* Description medium screens */
+/* Description adjust for variable viewports */
 @media all and (max-width: 900px) {
     .description {
         padding-right: 8%;
     }
 }
 
-/*About small screens */
+
 @media all and (max-width: 500px) {
     .description {
         padding-right: 5%;
     }
 }
 
+/* Body flexbox */
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -216,6 +224,7 @@ a {
     width: 100%;
 }
 
+/* Work card flexbox */
 .card-box {
     display: flex;
     flex-wrap: wrap;
