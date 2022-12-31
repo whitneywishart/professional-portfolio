@@ -18,4 +18,4 @@ https://whitneywishart.github.io/module-02-advanced-css-challenge-professional-p
 <br/>
 
 ### Screenshot
-<img src="./assets/images/application-screenshot.png" width="650">
+<img src="./assets/images/portfolio-screenshot.png" width="650">
