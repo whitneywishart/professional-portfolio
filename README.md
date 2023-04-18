@@ -1,4 +1,4 @@
-# Module 02 Challenge: Advanced CSS and professional portfolio
+# Professional portfolio
 ## Professional full stack web development showcase, in progress.
 <br/>
 
