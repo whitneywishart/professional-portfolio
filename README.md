@@ -18,4 +18,4 @@ https://whitneywishart.github.io/professional-portfolio/
 <br/>
 
 ### Screenshot
-<img src="./assets/images/portfolio-screenshot.png" width="650">
+<img src="./assets/images/portfolio-home.png" width="800">
